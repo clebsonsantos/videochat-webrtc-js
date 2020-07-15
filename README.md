@@ -36,4 +36,4 @@ const configuration = {
 
 ### Obs:
 - O projeto foi publicado em http://chatvideo.surge.sh, porém só está funcionando como desenvolvimento. 
-Algumas configurações precisão ser ajustadas para que funcione em produção.
+Para que funcione em produção ele precisa ser hospedado com suporte a servidor.

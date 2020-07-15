@@ -1,0 +1,56 @@
+
+.title{
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%,0);
+    font-size: 20px;
+}
+
+body{
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+    background-color: rgb(243, 243, 243);
+}
+b{
+    color: darkblue;
+}
+
+section .container{
+ /*    background-color: darkblue; */
+    margin-top: 60px;
+    max-width: 1280px;
+    height: 700px;
+/*     display: inline-block; */
+}
+.container .box-video{
+   /*  background-color: brown; */
+    width: 100%;
+    height: 100%;
+  /*   display: inline-block; */
+}
+ #remotevideo, #localvideo{
+    max-width: calc(100% - 30px);
+    margin: 0 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 0;
+    border: 1px solid #ccc;
+}
+
+#remotevideo{
+    width: 100%;
+    height: 60%;
+}
+#localvideo{
+    border: 10px solid orange;
+    width: 40%;
+
+    position: relative;
+    left: 30%;
+}
+

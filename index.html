@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+    <title>Chat Vídeo - Webrtc</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+
+<div class="title">
+<h2>Bem-vindo ao nosso <b>chat em vídeo</b> </h2>
+</div><!--welcome-->
+
+ <section>
+     <div class="container">     
+            <div class="box-video">
+            <br>
+                <video id="remotevideo" autoplay muted controls></video>
+                <br>
+                <video id="localvideo" autoplay muted controls></video>
+            </div>
+           
+    </div>
+    <br>
+
+ </section>
+
+
+
+<!-- <label><input type="checkbox" id="checkbox">Add video to audio-call (turn this on and off)</label><br> -->
+<!-- <video id="video"  autoplay controls muted></video> -->
+
+<!-- Published to chatvideo.surge.sh -->
+<script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+
+<script src="./controller/videocontrole.js"></script>
+</body>
+</html>
